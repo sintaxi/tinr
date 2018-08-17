@@ -1,0 +1,19 @@
+{
+  "name": "tinr",
+  "version": "0.1.0",
+  "description": "tinr",
+  "main": "./lib/tinr.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "Brock Whitten <brock@sintaxi.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.16.3",
+    "mocha": "^5.2.0",
+    "should": "^13.2.1"
+  },
+  "dependencies": {
+    "thug": "^0.4.3"
+  }
+}
