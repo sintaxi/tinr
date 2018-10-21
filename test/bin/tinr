@@ -6,5 +6,5 @@ var middleware = tinr.apiMiddlware("lvh.me:deepS3cret")
 var port = 9001
 
 express().set('x-powered-by', false).use(middleware).listen(port, "127.0.0.1", function(){
-  console.log("TINR feed available")
+  console.log("TINR feed available at: " + port)
 })
