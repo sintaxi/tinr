@@ -1,6 +1,6 @@
 {
   "name": "tinr",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "tinr",
   "main": "./lib/tinr.js",
   "scripts": {

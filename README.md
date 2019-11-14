@@ -3,13 +3,19 @@
 
 > TINR is not RSS
 
-TINR is a protocol over https for abitrary 432 character
+TINR is a protocol over https for built upon the `.trickle` file format.
 
 
-### server
+### how to implement me
+
+curl -d "hello world" sintaxi.com
+
+### how to host your own twitter feed.
 
 var tinr       = require("tinr")
 var middleware = tinr.apiMiddlware("sintaxi.com:deepS3cret")
 
 express().use(middleware).listen(4343)
+
+
 
