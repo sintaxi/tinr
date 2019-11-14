@@ -1,0 +1,28 @@
+
+
+var setToken = function(req, rsp, next){}
+var getToken = function(req, rsp, next){}
+
+var set = function(req, rsp, next){}
+var get = function(req, rsp, next){}
+var all = function(req, rsp, next){}
+
+var setFile = function(req, rsp, next){}
+var getFile = function(req, rsp, next){}
+
+
+
+
+adaptor.token.with({ req: req }).set(function(){})
+adaptor.token.with({ req: req }).get(function(){})
+adaptor.token.with({ req: req }).del(function(){})
+
+adaptor.record.with({ req: req }).set(function(){})
+adaptor.record.with({ req: req }).get(function(){})
+adaptor.record.with({ req: req }).all(function(){})
+adaptor.record.with({ req: req }).del(function(){})
+
+adaptor.file.with({ req: req }).set(function(){})
+adaptor.file.with({ req: req }).get(function(){})
+adaptor.file.with({ req: req }).del(function(){})
+
