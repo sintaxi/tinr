@@ -10,7 +10,7 @@ TINR is a protocol over https for built upon the `.trickle` file format.
 
 curl -d "hello world" sintaxi.com
 
-### how to host your own twitter feed.
+### how to host your own tinr feed.
 
 var tinr       = require("tinr")
 var middleware = tinr.apiMiddlware("sintaxi.com:deepS3cret")
